@@ -92,6 +92,11 @@ ul,li{
     --blue-grey:#f4f4fc;
 }
 
+.sticky_class{
+    position: sticky;
+    top: 60px;
+}
+
 .main_wrapper{
     background-color: var(--white);
     padding: 5rem 12rem;
@@ -342,6 +347,10 @@ ul,li{
     max-width: 100%;
     margin-top: 12px;
     line-height: 1.8;
+}
+
+.job_company p b{
+    color:var(--black);
 }
 
 .job_company ul{
